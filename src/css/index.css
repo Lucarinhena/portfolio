@@ -109,7 +109,7 @@ html {
 /* ============= HOME SECTION ============= */
 .home {
   display: flex;
-  background: url("/src/img/bg-principal.jpg");
+  background-image: url("/src/img/bg-principal.jpg");
   background-size: cover;
   background-color: var(--color-black);
   color: var(--color-white);
