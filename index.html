@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Olá, meu nome é Luca, sou estudante de Engenharia de Softwate Desenvolvedor Back-End sejam Bem-Vindos ao meu Portfólio!">
+
+  <link rel="icon" type="image/png" href="./src/img/icon-nav.png"/>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="./src/css/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="stylesheet" href="./src/css/responsive.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <title>Luca Carinhena</title>
+</head>
+
+<body>
+  <header class="header-content">
+
+    <!--- MENU NAVBAR --->
+    <nav class="nav-bar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#"><span><</span> Luca <span>/></span></a>
+        </div>
+
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Início</a></li>
+          <li><a href="#about" class="menu-btn">Sobre mim</a></li>
+          <li><a href="#services" class="menu-btn">Serviços</a></li>
+          <li><a href="#skills" class="menu-btn">Habilidades</a></li>
+          <li><a href="#certificates" class="menu-btn">Certificados</a></li>
+          <li><a href="#projects" class="menu-btn">Projetos</a></li>
+          <li><a href="#contact" class="menu-btn">Contato</a></li>
+        </ul>
+
+        <!-- icon menu responsive -->
+        <div class="menu-btn">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  
+  <main class="main-content">
+
+    
+    <section class="home section" id="home">
+      <div class="max-width">
+        <div class="home-content">
+
+          <div class="home-icon">
+            <img src="./src/img/luca-profile.jpg" alt="ícone imagem principal">
+          </div>
+          <div class="text-1">Olá Mundo, me chamo</div>
+          <div class="text-2">Luca Carinhena</div>
+          <div class="text-3">E eu sou <span class="typing"></span></div>
+        </div>
+
+         <div class="social-media">
+            <a href="https://github.com/Lucarinhena" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/luca-carinhena-21ab72238/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/lucarinhena/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+      </div>
+    </section>
+
+
+    <!--- ABOUT SECTION --->
+    <section class="about section" id="about" aria-label="uma seção falando sobre mim e a minha história na programação.">
+      <div class="max-width" data-aos="fade-down">
+        <h2 class="title">Sobre Mim</h2>
+
+        <div class="about-content">
+          <div class="column left">
+            <img src="./src/img/1686539245777.jpeg" alt="imagem pessoal de Luca">
+          </div>
+
+          <div class="column right">
+            <div class="text">
+              Me chamo Luca e sou um <span>estudante em formação :) </span>
+            </div>
+
+              <p >
+                Olá a todos, é um prazer, eu me chamo Luca, bem-vindos ao meu Portfólio
+                <br>
+                Sou um estudante dedicado de engenharia de software, cuja paixão pela tecnologia tem sido uma constante em minha vida. Desde jovem eu sempre demonstrei um amor inabalável pela inovação e pelo mundo da informática. Atualmente, estou imerso em seus estudos na área de engenharia de software, buscando aprimorar minhas habilidades e conhecimentos para contribuir de forma significativa para o campo. Minha jornada acadêmica é impulsionada por uma curiosidade incessante e um compromisso inabalável com o avanço tecnológico. Eu represento não apenas um estudante dedicado, mas também um entusiasta apaixonado por transformar ideias em realidade por meio da programação e do desenvolvimento de software.
+            </p>
+
+            <br>
+
+            <a href="https://drive.google.com/file/d/1DyMzv6dQxLBYsVJeTMUGFV-OVdfmNjtV/view?usp=sharing"
+              download target="_blank">Download CV <i class="uil uil-file-download"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!--- SERVICES SECTION --->
+    <section class="services section" id="services" aria-label="uma seção falando dos meus serviços que eu ofereço.">
+      <div id="particles-js"></div>
+      <div class="max-width">
+        <div data-aos="fade-down">
+          <h2 class="title">Serviços</h2>
+        </div>
+
+        <div class="serv-content" data-aos="zoom-in-up">
+          <div class="card">
+            <div class="box">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              <div class="text">Desenvolvimento Web</div>
+                <p>
+                  Criação de sites, layouts, aplicativos de compra ou rastreio, todos com sistemas completos
+                  (Banco de dados, sistema de pagamento, rastreio, etc).
+                </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="uil uil-brackets-curly"></i>
+              <div class="text">Back-End</div>
+              <p>
+                Ofereço serviços dedicados desde a criações de API's,banco de dados, até sistemas completos. 
+                Com agilidade e precisão no que você precisar, integrando features ou 
+                desenvolvendo do zero.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+              <div class="text">Power BI</div>
+                <p>
+                  Também posso fazer o desenvolvimento completo de um Dashboard, pelo PowerBi,
+                  desde a coleta dos dados (ETL) até o design para o relatório de sua empresa.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--- SKILLS SECTION --->
+    <section class="skills" id="skills" aria-label="uma seção falando das minhas habilidades e estudos até o momento.">
+      <div class="max-width" data-aos="fade-down">
+        <h2 class="title">Habilidades</h2>
+
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">Minhas princpais tecnologias e experiências.</div>
+            <p>
+              Gostaria de compartilhar aqui sobre minha trajetória nos estudos e na experiência no mundo da programação.
+              <br>
+              Comecei meus estudos em 2020 com PHP, por apenas hobby e indicação de amigos de jogo, porém não me adaptei na linguagem e acabei migrando para NodeJs, Sempre adorei estudar sobre a parte dos servidores, banco de dados e como funciona o mundo da internet "Por trás dos panos".
+              <br>
+              Já prestei serviços para empresas como corretora, escritório de contabilidade e até call-center. Efetuando a criação/manutenção de sistemas, implementando melhorias, inovações a até mesmo automações em processo. Efetuei serviços para mais de 50 empresas desde a minha entrada no mercado profissional como desenvolvedor e pretendo ampliar a minha experiência e conhecimento para alcançar cada vez mais meus objetivos.
+            </p>
+          </div>
+
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>NodeJs</span>
+                <span>80%</span>        
+             </div> 
+             <div class="line node"></div>   
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>JavaScript</span>
+                <span>70%</span>    
+              </div>   
+              <div class="line js"></div>        
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>TypeScript</span>
+                <span>45%</span>
+             </div>  
+              <div class="line ts"></div>          
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>Python</span>
+                <span>35%</span>               
+              </div>
+              <div class="line py"></div>                        
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>Banco de Dados (MySQL, PostgreSQL, MongoDB)</span>
+                <span>60%</span>              
+              </div>
+              <div class="line sql"></div>
+           </div>
+           <div class="bars">
+        
+            <div class="info">
+              <span>PowerBI (DAX) </span>
+              <span>65%</span>              
+            </div>
+            <div class="line bi ">
+            </div>
+            <div class="bars">                       
+            </div>
+         </div>
+          </div>
+        </div> 
+      </div>
+    </section> 
+
+
+    <!--- CERTIFICATES SECTION --->
+    <section class="conquest section" id="certificates" aria-label="uma seção mostrando os meus certificados do meu aprendizado.">
+      <div class="max-width" data-aos="fade-down">
+        <div>
+          <h2 class="title">Minhas Conquistas</h2>
+        </div>
+
+        <div class="carousel owl-carousel">
+          <div class="card">
+            <img src="./src/img/certificado_4805708.jpg" alt="Certificado Introdução ao Desenvolvimento Web">
+          </div>
+
+          <div class="card">
+            <img src="./src/img/certificado_8560579.jpg" alt="Certificado Design Thinking, Ux e Metodologias Ágeis">
+          </div>
+
+          <div class="card">
+            <img src="./src/img/certificado_6294903.jpg" alt="Certificado Lógica de Programação Essencial">
+          </div>
+
+          <div class="card">
+            <img src="./src/img/UC-f9b09d89-0a2e-4b35-85d4-f86ea5e9ef7c.jpg" alt="Certificado NodeJs Framework NestJs">
+          </div>
+
+          <div class="card">
+            <img src="./src/img/1656373188399.png" alt="Certificado Introdução ao Git e Github">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--- PROJECTS SECTION --->
+    <section class="portfolio section" id="projects" aria-label="uma seção mostrando os principais projetos do meu Github.">
+      <div class="max-width" data-aos="fade-down">
+        <h2 class="title">Projetos</h2>
+        <div class="portfolio-container swiper mySwiper">
+          <div class="swiper-wrapper">
+
+            <!-- project 01 -->
+            <div class="portfolio-content swiper-slide">
+              <img src="./src/img/nodejs-canil.png" class="portfolio-img" alt="projeto canil">
+              <div>
+               <h3 class="portfolio-title">PetDevShop </h3>
+                <p class="portfolio-description">
+                  Um site de adoção de animais feito com NodeJs e TypeScript.
+                </p>
+                <a href="https://nodets-canil-cyan.vercel.app/dogs" target="_blank" class="portfolio-button"> View <i class="uil uil-arrow-right button-icon"></i></a>
+              </div>
+            </div>
+
+            <!-- project 02 -->
+            <div class="portfolio-content swiper-slide">
+              <img src="./src/img/chat-time.png" class="portfolio-img" alt="projeto lista de tarefas">
+              <div>
+               <h3 class="portfolio-title">Chat real-time</h3>
+                <p class="portfolio-description">
+                    Um pequeno chat em tempo real feito em Nodejs com Socket.io.
+                </p>
+                <a href="https://github.com/Lucarinhena/chat-realtime" target="_blank" class="portfolio-button"> Entrar <i class="uil uil-arrow-right button-icon"></i></a>
+              </div>
+            </div>
+
+            <!-- project 03 -->
+            <div class="portfolio-content swiper-slide">
+              <img src="./src/img/imc.png" class="portfolio-img" alt="imc-calculator">
+              <div>
+               <h3 class="portfolio-title">Calculadora IMC</h3>
+                <p class="portfolio-description">
+                  Não é um projeto Back-end mas está voltado para o typescript com uma calculadora IMC simples.
+                </p>
+                <a href="https://lucarinhena.github.io/imc-calculator/" target="_blank" class="portfolio-button"> Entrar <i class="uil uil-arrow-right button-icon"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--- CONTACT SECTION --->
+    <section class="contact section" id="contact" aria-label="uma seção falando se interessou com o meu trabalho, entrar em contato.">
+      <div class="max-width">
+        <div data-aos="fade-down">
+          <h2 class="title">Contato</h2>
+        </div>
+
+        <div class="contact-content">
+          <div class="column left" data-aos="fade-down">
+            <div class="text">Se Interessou?</div>
+
+            <p>Obrigado por ter conhecido um pouco de mim e do meu trabalho.
+              Seria um prazer poder compartilhar mais sobre mim e adquirir experiência enfrentando desafios na programação cada vez mais. Se você estiver em busca de alguém dedicado, focado e por uma vontade imensa de aprendizado e que deseja crescer junto à sua empresa, ficaria lisonjeado em ter essa oportunidade. Sinta-se à vontade para me contatar e juntos transformarmos ideias em realidade.</p>
+
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Nome</div>
+                  <div class="sub-title">Luca Carinhena</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Endereço</div>
+                  <div class="sub-title">Curitiba, Paraná</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">luca_carinhena@hotmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="column right" data-aos="fade-up">
+              <div class="text">Fale comigo</div>
+
+              <form action="https://formsubmit.co/luca_carinhena@hotmail.com" method="POST" class="input-area">
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" name="nome" placeholder="Nome" required>
+                  </div>
+                  <div class="field email">
+                    <input type="email" name="email" placeholder="Email" required>
+                  </div> 
+                </div> 
+                <div class="field">
+                  <input type="text" name="assunto" placeholder="Assunto" required>
+                </div>
+                <div class="textarea">
+                  <textarea cols="30" rows="10" name="mensagem" placeholder="Mensagem" required></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Enviar</button> 
+                </div> 
+                <input type="hidden" name="_subject" value="New submission!">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!--- FOOTER --->
+  <footer> 
+    <span>Desenvolvido por <a href="#">Luca Carinhena</a> | <span class="far fa-copyright"></span><span> 2024 todos os direitos reservados</span>
+  </footer>
+
+
+  <!--- SCROLL UP --->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up"></i>
+  </a>
+
+
+  <!--- PARTICLES JS --->
+  <script src="./src/js/particles.js"></script>
+  <script src="./src/js/app-particles.js"></script>
+
+  <!--- SWIPER JS --->
+  <script src="./src/js/swiper-bundle.min.js"></script>
+
+  <!--- MAIN JS --->
+  <script src="./src/js/main.js"></script>
+
+  <!--- SCRIPT ANIMATION --->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init({
+  offset: 400,
+  duration: 1800,
+  });
+  </script>
+
+</body>
+</html>
