@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +11,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /* ============= VARIABLES CSS ============= */
 :root {
   --first-color: rgb(8, 15, 85);
@@ -23,12 +21,11 @@ html {
   --scroll-thumb-color: rgb(161, 151, 180);
   --scroll-bar-color: rgb(188, 181, 201);
   --clean-light-gray: rgb(189, 189, 189);
-  --color-clean-white:rgb(241, 239, 239);
+  --color-clean-white: rgb(241, 239, 239);
   --color-white: rgb(255, 255, 255);
   --color-black: rgb(24, 22, 22);
   --color-black-clean: rgb(33, 33, 33);
 }
-
 
 .max-width {
   max-width: 1300px;
@@ -36,13 +33,12 @@ html {
   margin: auto;
 }
 
-
 /* ============= MENU NAVBAR ============= */
 .nav-bar {
   position: fixed;
   width: 100%;
   padding: 30px 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
 
@@ -99,7 +95,7 @@ html {
 }
 
 .nav-bar.sticky .menu li a:hover {
-  color: var(--color-white-pink);
+  color: var(--color-purple-light);
 }
 
 /* icon menu responsive */
@@ -110,11 +106,10 @@ html {
   display: none;
 }
 
-
 /* ============= HOME SECTION ============= */
 .home {
   display: flex;
-  background: url("/src/img/bg-principal.jpg") top no-repeat;
+  background: url("/src/img/bg-principal.jpg");
   background-size: cover;
   background-color: var(--color-black);
   color: var(--color-white);
@@ -122,7 +117,7 @@ html {
   max-width: 1920px;
   height: 100vh;
   min-height: 500px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .home-icon img {
@@ -132,7 +127,7 @@ html {
   object-fit: cover;
   border: 1px solid transparent;
   right: 30vh;
-  transition: all .50s ease;
+  transition: all 0.5s ease;
 }
 
 .home-icon img:hover {
@@ -175,7 +170,7 @@ html {
   color: var(--color-white);
   cursor: pointer;
   margin-right: 15px;
-  transition: all .50s ease;
+  transition: all 0.5s ease;
 }
 
 .social-media a:hover i {
@@ -183,7 +178,6 @@ html {
   transition: all 0.5s ease;
   color: var(--color-purple-light);
 }
-
 
 /* ============= ABOUT SECTION/ALL SIMILIAR STYLING ============= */
 section {
@@ -197,8 +191,8 @@ section {
 .portfolio,
 .contact,
 footer {
-  font-family: 'Poppins', sans-serif;
-  background: var(--clean-white-purple); 
+  font-family: "Poppins", sans-serif;
+  background: var(--clean-white-purple);
 }
 
 .about .about-content,
@@ -218,7 +212,7 @@ section .title {
   font-weight: 500;
   margin: 60px;
   padding-bottom: 20px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 section .title::before {
@@ -254,11 +248,11 @@ section .title::after {
 }
 
 .about .about-content .left img {
-  height:360px;
+  height: 360px;
   width: 360px;
   margin-bottom: 100px;
   object-fit: cover;
-  border-radius: 100%; 
+  border-radius: 100%;
   border: 1px solid transparent;
 }
 
@@ -312,13 +306,12 @@ section .title::after {
 .services #particles-js {
   position: absolute;
   width: 100%;
-  height: 85vh; 
-
+  height: 85vh;
 }
 
 .services .title::before,
 .conquest .title::before,
-.contact  .title::before {
+.contact .title::before {
   background: var(--color-white);
 }
 
@@ -338,7 +331,7 @@ section .title::after {
   padding: 25px 25px;
   border: 2px solid transparent;
   cursor: pointer;
-  transition: all .50s ease;
+  transition: all 0.5s ease;
   z-index: 50;
 }
 
@@ -350,7 +343,6 @@ section .title::after {
 .services .serv-content .card .box {
   transition: all 0.3s ease;
 }
-
 
 .services .serv-content .card i {
   font-size: 32px;
@@ -369,7 +361,6 @@ section .title::after {
   max-width: 100%;
   color: var(--color-clean-white);
 }
-
 
 /* ============= SKILLS SECTION ============= */
 .skills .title::after {
@@ -451,10 +442,6 @@ section .title::after {
   width: 65%;
 }
 
-
-
-
-
 /* ============= CONQUEST SECTION ============= */
 .conquest {
   background: var(--color-black);
@@ -474,7 +461,7 @@ section .title::after {
   border-radius: 30px;
   padding: 30px 45px;
   margin: 0;
-  transition: all .50s ease;
+  transition: all 0.5s ease;
 }
 
 .conquest .carousel .card:hover {
@@ -523,7 +510,6 @@ section .title::after {
   background: var(--color-purple-light) !important;
 }
 
-
 /* ============= PROJECT SECTION ============= */
 .portfolio .title::after {
   background: var(--clean-white-purple);
@@ -548,17 +534,17 @@ section .title::after {
 .portfolio-img {
   width: 300px;
   margin-bottom: 10px;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   justify-self: center;
 }
 
 .portfolio-title {
   font-size: 1.125rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .portfolio-description {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .portfolio-button {
@@ -584,7 +570,7 @@ section .title::after {
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  content: '';
+  content: "";
 }
 
 .swiper-portfolio-icon {
@@ -593,12 +579,12 @@ section .title::after {
 }
 
 .swiper-button-prev {
-  left: -.5rem;
+  left: -0.5rem;
 }
 
 .swiper-button-next {
-  right: -.5rem;
-  margin-right: -1.40rem;
+  right: -0.5rem;
+  margin-right: -1.4rem;
 }
 
 .portfolio-container .swiper-pagination {
@@ -609,7 +595,6 @@ section .title::after {
 .swiper-button-next {
   outline: none;
 }
-
 
 /* ============= CONTACT SECTION ============= */
 .contact .title::after {
@@ -646,7 +631,7 @@ section .title::after {
   display: flex;
   height: 65px;
   align-items: center;
- }
+}
 
 .contact .contact-content .row .info {
   margin-left: 25px;
@@ -670,7 +655,6 @@ section .title::after {
 .contact .contact-content .input-area input.active {
   border: 2px solid var(--color-purple-light);
 }
-
 
 .contact .right form .fields {
   display: flex;
@@ -705,12 +689,12 @@ section .title::after {
 .contact .right form .textarea textarea {
   height: 100%;
   width: 100%;
-  border: 2px solid var(--clean-light-gray); 
+  border: 2px solid var(--clean-light-gray);
   border-radius: 10px;
   outline: none;
   padding: 0 15px;
   font-size: 17px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .contact .right form .textarea textarea {
@@ -742,10 +726,9 @@ section .title::after {
   background: none;
 }
 
-
 /* ============= FOOTER ============= */
 footer {
-  background: var(--color-black-clean); 
+  background: var(--color-black-clean);
   padding: 17px 23px;
   color: var(--color-white);
   text-align: center;
@@ -754,13 +737,11 @@ footer {
 footer span a {
   color: var(--color-purple-light);
   text-decoration: none;
-
 }
 
 footer span a:hover {
   text-decoration: underline;
 }
-
 
 /* ============= SCROLL UP ============= */
 .scrollup {
@@ -768,18 +749,18 @@ footer span a:hover {
   right: 1rem;
   bottom: -30%;
   background-color: var(--first-color);
-  opacity: .9;
+  opacity: 0.9;
   font-size: 1.25rem;
   color: var(--color-white);
   padding: 6px;
   border-radius: 100%;
   z-index: 9999;
-  transition: bottom .4s, transform .4s;
+  transition: bottom 0.4s, transform 0.4s;
   cursor: pointer;
 }
 
 .scrollup:hover {
-  transform: translateY(-.25rem);
+  transform: translateY(-0.25rem);
 }
 
 /* show scroll */
@@ -787,17 +768,16 @@ footer span a:hover {
   bottom: 3rem;
 }
 
-
 /* ============= SCROLL BAR ============= */
 ::-webkit-scrollbar {
-  width: .6rem;
+  width: 0.6rem;
   background-color: var(--scroll-bar-color);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--scroll-thumb-color);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
