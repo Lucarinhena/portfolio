@@ -419,7 +419,7 @@ section .title::after {
 }
 
 .skills-content .right .node::before {
-  width: 80%;
+  width: 70%;
 }
 
 .skills-content .right .js::before {
@@ -431,15 +431,15 @@ section .title::after {
 }
 
 .skills-content .right .py::before {
-  width: 35%;
+  width: 50%;
 }
 
 .skills-content .right .sql::before {
-  width: 60%;
+  width: 70%;
 }
 
 .skills-content .right .bi::before {
-  width: 65%;
+  width: 35%;
 }
 
 /* ============= CONQUEST SECTION ============= */

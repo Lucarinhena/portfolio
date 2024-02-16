@@ -17,7 +17,7 @@ $(document).ready(function () {
     // typing animation
     var typed = new Typed('.typing', {
       strings: [
-        'Desenvolvedor Backend',
+        'Desenvolvedor FullStack',
         'Engenheiro de Software',
         'Apaixonado por Tecnologia',
       ],
