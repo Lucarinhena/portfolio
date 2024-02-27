@@ -121,7 +121,8 @@ html {
 }
 
 .home-icon img {
-  height: 370px;
+  height: 320px;
+  max-width: 300px;
   border-radius: 100%;
   position: absolute;
   object-fit: cover;
